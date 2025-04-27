@@ -1,0 +1,64 @@
+.flight-card {
+    width: 353px;
+    height: 140px; /* increased for breathing space */
+    background-color: #3643FB; /* Primary Blue */
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    color: #ffffff; /* All text white */
+    position: relative;
+  }
+  
+  .flight-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flight-header h2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .see-all {
+    font-size: 14px;
+    color: #e0ffe0; /* Light greenish shade for visibility */
+    text-decoration: none;
+  }
+  
+  .flight-info {
+    margin-top: 8px;
+  }
+  
+  .flight-time {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+  }
+  
+  .flight-route {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+  }
+  
+  .city {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .plane-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .city-name {
+    font-size: 14px;
+    margin-top: 4px;
+    opacity: 0.9;
+  }
+  

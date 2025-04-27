@@ -1,0 +1,141 @@
+/* Container */
+.container {
+    min-height: 100vh;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Light and Dark Mode */
+  .lightMode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .darkMode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Toggle Button */
+  .toggleButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .toggleButton {
+    background-color: #444;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .toggleButton:hover {
+    background-color: #3a4ec7;
+  }
+  
+  /* Core Heading and Subtext */
+  .coreLayout {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .mainHeading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subText {
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  /* Input Group */
+  .inputGroup {
+    margin-bottom: 25px;
+  }
+  
+  .inputTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Inputs */
+  .input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: all 0.3s;
+  }
+  
+  /* Input Styles for Dark/Light */
+  .input.darkMode {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    color: white;
+  }
+  
+  .input.lightMode {
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  /* Travel Options */
+  .travelOptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  /* Travel Box */
+  .travelBox {
+    background-color: #f5f5f5;
+    border: 2px solid transparent;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    transition: all 0.3s;
+  }
+  
+  /* Selected Travel Box */
+  .travelBox.selected {
+    border: 2px solid #4361EE; /* Blue border to show selected */
+  }
+  
+  /* Icon inside Travel Box */
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+  
+  /* Continue Button */
+  .continueButton {
+    background-color: #4361EE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .continueButton:hover {
+    background-color: #3a4ec7;
+  }
+  

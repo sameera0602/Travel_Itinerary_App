@@ -1,0 +1,65 @@
+.activities-section {
+    margin-top: 40px;
+  }
+  
+  .activities-section h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .day-plan {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .day-button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .day-button.active {
+    background-color: #4f46e5; /* primary color */
+    color: white;
+  }
+  
+  .activities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .activity-card {
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .activity-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .activity-details {
+    padding: 10px;
+  }
+  
+  .activity-details h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .activity-details p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  

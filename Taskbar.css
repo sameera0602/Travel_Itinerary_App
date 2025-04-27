@@ -1,0 +1,45 @@
+/* Default Taskbar Styles */
+.taskbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .taskbarImage {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .time {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  /* Dark Mode Styles */
+  .darkMode {
+    background-color: #333;
+  }
+  
+  .darkMode .taskbarImage {
+    filter: brightness(0) invert(1); /* Inverts the image for a white look in dark mode */
+  }
+  
+  .darkModeText {
+    color: #fff;
+  }
+  
+  /* Light Mode Styles */
+  .lightMode {
+    background-color: #f1f1f1;
+  }
+  
+  .lightMode .taskbarImage {
+    filter: none;
+  }
+  
+  .lightModeText {
+    color: #000;
+  }
+  
